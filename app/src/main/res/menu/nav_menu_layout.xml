@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-->tools:showIn="navigation_view"><!-->
+
+        <group android:checkableBehavior="single">
+
+        <item android:id="@+id/acceleratorMenuId"
+            android:title="Accelerometer"
+            android:icon="@drawable/ic_accelerometer"/>
+
+        <item android:id="@+id/gyroscopeMenuId"
+            android:title="Gyroscope"
+            android:icon="@drawable/ic_gyroscope"/>
+
+        <item android:id="@+id/proximityMenuId"
+            android:title="Proximity"
+            android:icon="@drawable/ic_proximity"/>
+
+
+        <item android:id="@+id/shakeMenuId"
+            android:title="Shake Detection"
+            android:icon="@drawable/ic_shakedetection"/>
+
+        <item android:id="@+id/MapMenuId"
+            android:title="Map"
+            android:icon="@drawable/ic_map"/>
+
+        <item android:id="@+id/gyroscopeDataMenuId"
+            android:title="Gyroscope Data"
+            android:icon="@drawable/ic_gyroscopedata"/>
+
+
+
+</group>
+
+</menu>
